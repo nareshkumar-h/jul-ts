@@ -20,9 +20,11 @@
 
 #### DAY-2	
 * Typescript Functions	
- * Default Parameters	
- * Optional	
- * Rest Parameters De structuring Spread Operator Modules	
+* Default Parameters	
+* Optional	
+* Rest Parameters 
+* Destructuring 
+* Spread Operator Modules	
 * import and export keywords Interfaces	
 * Inheritance	
   * Class level Inheritance
