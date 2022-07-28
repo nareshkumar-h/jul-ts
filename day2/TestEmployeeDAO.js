@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const EmployeeDAO_1 = require("./EmployeeDAO");
+EmployeeDAO_1.EmployeeDAO.save("Naresh");
+EmployeeDAO_1.EmployeeDAO.save("Siva");
+EmployeeDAO_1.EmployeeDAO.update(0, "Naresh Kumar");
+EmployeeDAO_1.EmployeeDAO.delete(1);
+let employees = EmployeeDAO_1.EmployeeDAO.findAll();
+console.log(employees);
+let emp = EmployeeDAO_1.EmployeeDAO.findOne(0);
+console.log("FindOne:" + emp);
+let searchResults = EmployeeDAO_1.EmployeeDAO.search("Naresh Kumar");
+console.log("SearchResults:" + searchResults);
