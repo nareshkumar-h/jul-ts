@@ -1,6 +1,7 @@
 "use strict";
 //Data Access Object (DAO) => insert/update/delete/select 
-//create table employees ( name varchar(100));
+//create table employees ( id int primary key auto_increment, 
+//  name varchar(100));
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EmployeeDAO = void 0;
 class EmployeeDAO {
@@ -25,6 +26,15 @@ class EmployeeDAO {
     //delete from employees where id = ?; 1 row
     static delete(index) {
         this.employees.splice(index, 1);
+    }
+    //select count(*) from employees;
+    static count() {
+        return this.employees.length;
+    }
+    static exists(name) {
+        let isExists = false;
+        //write logic
+        return isExists;
     }
     static search(name) {
         let results = [];

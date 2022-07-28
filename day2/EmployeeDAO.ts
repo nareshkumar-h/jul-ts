@@ -1,5 +1,6 @@
 //Data Access Object (DAO) => insert/update/delete/select 
-//create table employees ( name varchar(100));
+//create table employees ( id int primary key auto_increment, 
+//  name varchar(100));
 
 export class EmployeeDAO{
 
@@ -30,7 +31,18 @@ export class EmployeeDAO{
     //delete from employees where id = ?; 1 row
     public static delete(index:number):void{
         this.employees.splice(index, 1);
-    }  
+    } 
+    
+    //select count(*) from employees;
+    public static count():number{
+        return this.employees.length;
+    }
+
+    public static exists(name:string):boolean{
+        let isExists = false;
+        //write logic
+        return isExists;
+    }
     
     public static search(name:string):string[]{
         let results:string[] = [];
