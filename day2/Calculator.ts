@@ -1,7 +1,10 @@
 export class Calculator {
 
-    constructor(){
-        console.log("Calculator constructor");
+    private name:string ;
+
+    constructor(name:string){
+        this.name = name;
+        console.log("Calculator - Student Name: " + this.name);
     }
 
     getTotal(marks:number[]): number{
