@@ -1,9 +1,14 @@
 export class Employee {
-    private id: number;
-    private name:string;
-    private salary:string;
+    public id!: number;
+    public name:string;
+    public salary:number;
     
     //Implement constructor
-    
+
+    constructor(name:string, salary:number){
+        this.name = name;
+        this.salary = salary;
+    }
+
 
 }
