@@ -10,7 +10,7 @@
   * Number	
   * String	
   * Boolean	
-  * Any	
+  * Any  	
   * Tuple	
   * Enum	
 * var, let and const keywords	

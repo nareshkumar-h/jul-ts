@@ -1,7 +1,7 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 //String - uppercase,lowcase,equals, length
-var name = "Naresh";
+const name = "Naresh";
 console.log("compare :" + name == "Naresh");
 console.log("Name:" + name);
 console.log("Uppercase" + name.toUpperCase());

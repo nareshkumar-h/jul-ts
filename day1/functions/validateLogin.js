@@ -1,5 +1,6 @@
+"use strict";
 function validateLoginDetails(email, password) {
-    var result = "";
+    let result = "";
     if (email == null || email.trim() == "") {
         result = "Email cannot be empty";
     }

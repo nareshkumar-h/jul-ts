@@ -1,8 +1,8 @@
 "use strict";
-exports.__esModule = true;
-var mark = 45;
+Object.defineProperty(exports, "__esModule", { value: true });
+const mark = 45;
 //calculate grade
-var grade;
+let grade;
 //Rule 1: if mark above 90, then grade A
 //Rule 2: if mark between 80-90 then grade B
 //Rule 3: if mark less than 80 then grade F

@@ -1,9 +1,9 @@
 "use strict";
-exports.__esModule = true;
-var name = "Naresh ";
-var age = 47;
-var isValidUser = false;
-var billAmount = 100.55;
+Object.defineProperty(exports, "__esModule", { value: true });
+let name = "Naresh ";
+const age = 47;
+const isValidUser = false;
+const billAmount = 100.55;
 //age = 48;
 console.log("Name:" + name.length);
 console.log("Age:" + age);

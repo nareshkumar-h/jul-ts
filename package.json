@@ -1,0 +1,27 @@
+{
+  "name": "typescript-training",
+  "version": "1.0.0",
+  "description": "* What is Web Development\t\r * What is NPM and Installation of Node\t\r * Typescript Introduction\t\r   * What is EcmaScript (ES)\t\r   * Difference between static type checking and Dynamic type checking\t\r * Data Types in Typescript\t\r   * Number\t\r   * String\t\r   * Boolean\t\r   * Any  \t\r   * Tuple\t\r   * Enum\t\r * var, let and const keywords\t\r * Arrow / Lambda Functions\t\r * Classes and Objects\t\r * LAB",
+  "main": "index.js",
+  "scripts": {      
+    "start":"echo \"Start\"",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nareshkumar-h/jul-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nareshkumar-h/jul-ts/issues"
+  },
+  "homepage": "https://github.com/nareshkumar-h/jul-ts#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

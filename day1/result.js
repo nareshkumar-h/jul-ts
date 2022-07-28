@@ -1,9 +1,9 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 // If the mark is above 80, PASS 
 // if it is less than 80, FAIL
-var mark = 95;
-var result;
+const mark = 95;
+let result;
 if (mark >= 80) {
     // console.log("PASS");
     result = "PASS";

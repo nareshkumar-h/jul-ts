@@ -1,8 +1,8 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 //login form 
-var email = "n@gmail";
-var password = "12345678";
+const email = "n@gmail";
+const password = "12345678";
 //Validation - String
 if (email == null || email == "" || email.trim() == "") {
     console.log("Email cannot be empty");

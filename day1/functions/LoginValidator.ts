@@ -1,10 +1,10 @@
 export {}
 class LoginValidator{
     // compiler will provide default constructor ( if we didn't add any constructor)
-    constructor(){
+    constructor(){        
         console.log("Constructor called");
     }
-    // public static validate(email:string,password:string):void {
+   // public static validate(email:string,password:string):void {
     public validate(email:string,password:string):void {
         let errorMessage:string = "";
         if (email =="" ){
@@ -19,6 +19,6 @@ class LoginValidator{
         
     }
 }
-// LoginValidator.validate("n@gmail.com",""); //static method
-let loginValidator = new LoginValidator(); // Create an object for the class
+ //LoginValidator.validate("n@gmail.com",""); //static method
+const loginValidator = new LoginValidator(); // Create an object for the class
 loginValidator.validate("n@gmail.com",""); // Accessing the instance methods using the objects
