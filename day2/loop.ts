@@ -1,6 +1,6 @@
 export {}
 // let marks:number[] = [20,30,50];
-let marks = [];
+let marks:number[] = [];
 // How to add items in an array in JS/TS
 marks.push(20);
 marks.push(30);
