@@ -1,6 +1,4 @@
-export {}
-
-class Calculator {
+export class Calculator {
 
     constructor(){
         console.log("Calculator constructor");
@@ -23,14 +21,7 @@ class Calculator {
     }
 
 }
-const calculatorObj = new Calculator();//Create an Object
-const marks:number[] = [ 40,50,99,80]; //input
-let total = calculatorObj.getTotal(marks);  //calling a method 
-console.log("Total:" + total);
 
-let noOfSubjects =  marks.length; //size of an array : 3 subjects
-let percentage = calculatorObj.getPercentage(total, noOfSubjects);
-console.log("Percentage:" + percentage);
 // Task: Create a class Calculator
 // Create a constructor
 // Create  a method getTotal(marks) which should return total

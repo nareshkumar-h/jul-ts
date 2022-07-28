@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Calculator = void 0;
 class Calculator {
     constructor() {
         console.log("Calculator constructor");
@@ -19,13 +20,7 @@ class Calculator {
         return percentage;
     }
 }
-const calculatorObj = new Calculator(); //Create an Object
-const marks = [40, 50, 99, 80]; //input
-let total = calculatorObj.getTotal(marks); //calling a method 
-console.log("Total:" + total);
-let noOfSubjects = marks.length; //size of an array : 3 subjects
-let percentage = calculatorObj.getPercentage(total, noOfSubjects);
-console.log("Percentage:" + percentage);
+exports.Calculator = Calculator;
 // Task: Create a class Calculator
 // Create a constructor
 // Create  a method getTotal(marks) which should return total
