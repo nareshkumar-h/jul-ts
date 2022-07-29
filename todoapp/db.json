@@ -23,6 +23,18 @@
       "email": "s@gmail.com",
       "password": "pass123",
       "id": 4
+    },
+    {
+      "name": "Nithin",
+      "email": "ni@gmail.com",
+      "password": "pass123",
+      "id": 5
+    },
+    {
+      "name": "Nithya",
+      "email": "nit@gmail.com",
+      "password": "pass123",
+      "id": 6
     }
   ],
   "tasks": []

@@ -24,6 +24,7 @@ class RegisterComponent {
             console.log(userObj);
             //Step 3: call REST API
             const url = "http://localhost:3000/users";
+            //post,get,patch,delete,put
             axios_1.default.post(url, userObj).then((res) => {
                 console.log("Response:", res.data);
             });
