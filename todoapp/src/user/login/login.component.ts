@@ -11,11 +11,12 @@ export class LoginComponent  {
 
         //to check whether the given email and password is exists in backend REST API
 
+        //Step 1: To get all the users
         let url = "http://localhost:3000/users";
         axios.get(url).then( (res:any)=>{
             let users = res.data;
-            console.log(users);
-            //iterate the user and check if the given email/password is exists
+            console.log(users);            
+            //Step 2: iterate the user and check if the given email/password is exists
             let isExists = false;
             for(let user of users){
                 if (user.email == this.email && user.password == this.password){
@@ -24,6 +25,7 @@ export class LoginComponent  {
                 }
             }
             console.log("IsExists:" + isExists);
+            //Step 3: Display Message
             if(isExists){
                 console.log("Successfully LoggedIn");
             }

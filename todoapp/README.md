@@ -18,3 +18,15 @@
 * Show only my Tasks ( USER )
 * Update Tasks
 * Search Task 
+
+#### Next plan ( Angular )
+* Create Angular Project = TodoApp
+* Create Components
+===> RegisterComponent
+===> LoginComponent
+===> AddTaskComponent
+===> MyTaskComponent
+===> ListTaskComponent ( Admin)
+===> UpdateTaskComponent 
+===> ListUserComponent (Admin)
+
