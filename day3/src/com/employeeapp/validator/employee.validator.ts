@@ -1,6 +1,5 @@
 export class EmployeeValidator {
-
-
+      
     public static validateNewUserDetails(name:string, email:string, password:string){
         if(name == null ){
             throw new Error("Name cannot be empty");

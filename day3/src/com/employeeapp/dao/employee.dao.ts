@@ -1,6 +1,11 @@
 import { Employee } from "../model/employee";
+import { IEmployeeDAO } from "./iemployee.dao";
 
-export class EmployeeDAO {
+export class EmployeeDAO implements IEmployeeDAO {
+   
+    delete(id: number): void {
+        
+    }
 
     //save(name:string,email:string,password:string)
     save(employee:Employee)
@@ -21,7 +26,5 @@ export class EmployeeDAO {
 
     }
 
-    delete(){
-
-    }
+   
 }

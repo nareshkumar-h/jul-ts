@@ -2,6 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EmployeeDAO = void 0;
 class EmployeeDAO {
+    delete(id) {
+    }
     //save(name:string,email:string,password:string)
     save(employee) {
         try {
@@ -14,8 +16,6 @@ class EmployeeDAO {
         }
     }
     update() {
-    }
-    delete() {
     }
 }
 exports.EmployeeDAO = EmployeeDAO;
