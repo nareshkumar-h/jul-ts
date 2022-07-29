@@ -19,7 +19,7 @@ export class EmployeeService {
             employeeDAO.save(emp);
 
             //Step 3: Mail/SMS Notification
-            MailUtil.sendMail();
+            MailUtil.sendMail(email);
 
         }
         catch(err:any){
