@@ -29,6 +29,7 @@ class RegisterComponent {
             //    });
             const userService = new user_service_1.UserService();
             userService.addUser(userObj);
+            console.log("Successfully Registered");
         }
         catch (err) {
             console.error("Error:" + err.message);

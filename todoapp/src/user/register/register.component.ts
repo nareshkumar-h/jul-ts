@@ -21,7 +21,7 @@ export class RegisterComponent {
             }
             //todo: add validations for email, password
             //password length must be greater than 8 characters
-             
+
             console.log("Validation Success.");
 
             //Step 2: Prepare the data
@@ -38,6 +38,7 @@ export class RegisterComponent {
 
             const userService = new UserService();
             userService.addUser(userObj);
+            console.log("Successfully Registered");
 
         }
         catch (err: any) {
