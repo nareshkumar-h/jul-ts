@@ -9,6 +9,8 @@
 * Login User
 * Forgot Password
 * View User profile
+* List All User
+* Delete User
 
 #### Task Module Feature
 * Add Task
