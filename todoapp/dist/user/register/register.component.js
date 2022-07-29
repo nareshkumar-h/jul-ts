@@ -1,10 +1,7 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RegisterComponent = void 0;
-const axios_1 = __importDefault(require("axios"));
+const user_service_1 = require("../user.service");
 class RegisterComponent {
     constructor() {
         console.log("Register Component");
@@ -23,11 +20,13 @@ class RegisterComponent {
                 "password": this.password };
             console.log(userObj);
             //Step 3: call REST API
-            const url = "http://localhost:3000/users";
-            //post,get,patch,delete,put
-            axios_1.default.post(url, userObj).then((res) => {
-                console.log("Response:", res.data);
-            });
+            //    const url = "http://localhost:3000/users";
+            //    //post,get,patch,delete,put
+            //    axios.post(url,userObj).then( (res:any)=>{
+            //         console.log("Response:" , res.data);
+            //    });
+            const userService = new user_service_1.UserService();
+            userService.addUser(userObj);
         }
         catch (err) {
             console.error("Error:" + err.message);

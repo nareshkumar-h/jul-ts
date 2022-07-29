@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { UserService } from '../user.service';
 export class RegisterComponent {
 
     public name!: string;
@@ -26,12 +27,14 @@ export class RegisterComponent {
             console.log(userObj);
 
            //Step 3: call REST API
-           const url = "http://localhost:3000/users";
-           //post,get,patch,delete,put
-           axios.post(url,userObj).then( (res:any)=>{
-                console.log("Response:" , res.data);
-           });
+        //    const url = "http://localhost:3000/users";
+        //    //post,get,patch,delete,put
+        //    axios.post(url,userObj).then( (res:any)=>{
+        //         console.log("Response:" , res.data);
+        //    });
 
+            const userService = new UserService();
+            userService.addUser(userObj);
 
         }
         catch (err: any) {
