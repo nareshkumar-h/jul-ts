@@ -19,6 +19,9 @@ export class RegisterComponent {
             if (this.name == null || this.name == "") {
                 throw new Error("Name cannot be empty");
             }
+            //todo: add validations for email, password
+            //password length must be greater than 8 characters
+             
             console.log("Validation Success.");
 
             //Step 2: Prepare the data
