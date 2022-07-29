@@ -5,6 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EmployeeDAO = void 0;
 class EmployeeDAO {
+    static employees = []; //db table
     //insert into employees(name) values (?)
     static save(name) {
         console.log("EmployeeDAO- save" + name);
@@ -43,4 +44,3 @@ class EmployeeDAO {
     }
 }
 exports.EmployeeDAO = EmployeeDAO;
-EmployeeDAO.employees = []; //db table

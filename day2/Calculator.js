@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Calculator = void 0;
 class Calculator {
+    name;
     constructor(name) {
         this.name = name;
         console.log("Calculator - Student Name: " + this.name);

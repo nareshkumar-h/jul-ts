@@ -2,6 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Employee = void 0;
 class Employee {
+    empId;
+    name;
+    salary;
+    active;
     // public empId:number;
     // public name:string;
     // public salary:number;

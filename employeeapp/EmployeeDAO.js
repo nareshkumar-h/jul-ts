@@ -2,9 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EmployeeDAO = void 0;
 class EmployeeDAO {
-    constructor() {
-        this.employees = [];
-    }
+    employees = [];
     save(employee) {
         //todo 
         console.log("EmployeeDAO" + employee.name + employee.salary);
