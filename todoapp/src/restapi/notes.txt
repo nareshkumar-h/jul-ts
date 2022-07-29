@@ -1,0 +1,10 @@
+
+REST API - methods
+
+POST => add users
+
+PUT => update user
+
+PATCH => partial update ( e.g: change password )
+
+GET => select api
